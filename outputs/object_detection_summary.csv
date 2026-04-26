@@ -1,0 +1,11 @@
+domain,video_stem,frames_in_folder,detection_rows_total,csv_path,annotated_examples_saved
+artificial_jewellery,video_20260404_114752,377,12155,../outputs/object_detections/artificial_jewellery/video_20260404_114752_objects.csv,8
+artificial_jewellery,video_20260404_115542,224,7062,../outputs/object_detections/artificial_jewellery/video_20260404_115542_objects.csv,8
+artificial_jewellery,video_20260404_120254,79,2478,../outputs/object_detections/artificial_jewellery/video_20260404_120254_objects.csv,8
+artificial_jewellery,video_20260404_121005,25,814,../outputs/object_detections/artificial_jewellery/video_20260404_121005_objects.csv,8
+artificial_jewellery,video_20260404_121903,427,13526,../outputs/object_detections/artificial_jewellery/video_20260404_121903_objects.csv,8
+artificial_jewellery,video_20260404_122845,16,519,../outputs/object_detections/artificial_jewellery/video_20260404_122845_objects.csv,8
+artificial_jewellery,video_20260405_105612_edit,8,262,../outputs/object_detections/artificial_jewellery/video_20260405_105612_edit_objects.csv,8
+home_cleaning,video_20260404_073018,1,31,../outputs/object_detections/home_cleaning/video_20260404_073018_objects.csv,1
+home_cleaning,video_20260404_074030,3,96,../outputs/object_detections/home_cleaning/video_20260404_074030_objects.csv,2
+shop,video_20260405_163219_edit,22,698,../outputs/object_detections/shop/video_20260405_163219_edit_objects.csv,8

@@ -1,0 +1,2 @@
+domain,video_stem,start_frame,end_frame,duration_frames,dominant_grasp,grasp_distribution,motion_speed_px,motion_label,hands_used,dominant_handedness,bimanual
+shop,video_20260405_163219_edit,720,5910,5191,partial_grip,"{""partial_grip"": 14, ""closed_power"": 7, ""pinch"": 3}",694.767,fast,2,Right,True

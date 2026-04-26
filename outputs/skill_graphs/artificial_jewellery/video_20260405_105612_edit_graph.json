@@ -1,0 +1,40 @@
+{
+  "@context": "https://drishti.robotics/skill-graph/v1",
+  "@type": "RobotSkillGraph",
+  "nodes": [
+    {
+      "id": "artificial_jewellery::video_20260405_105612_edit::root",
+      "node_type": "video_root",
+      "domain": "artificial_jewellery",
+      "video": "video_20260405_105612_edit",
+      "total_segments": 1
+    },
+    {
+      "id": "artificial_jewellery::video_20260405_105612_edit::seg_30_300",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260405_105612_edit",
+      "start_frame": 30,
+      "end_frame": 300,
+      "duration_frames": 271,
+      "kinematic_grasp": "partial_grip",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.3,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "precision_placement",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "artificial_jewellery::video_20260405_105612_edit::root",
+      "target": "artificial_jewellery::video_20260405_105612_edit::seg_30_300",
+      "edge_type": "temporal_next"
+    }
+  ]
+}

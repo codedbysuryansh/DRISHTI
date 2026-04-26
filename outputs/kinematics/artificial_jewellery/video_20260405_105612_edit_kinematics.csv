@@ -1,0 +1,2 @@
+domain,video_stem,start_frame,end_frame,duration_frames,dominant_grasp,grasp_distribution,motion_speed_px,motion_label,hands_used,dominant_handedness,bimanual
+artificial_jewellery,video_20260405_105612_edit,30,300,271,partial_grip,"{""partial_grip"": 11, ""closed_power"": 2, ""open_hand"": 1}",238.087,fast,2,Left,True

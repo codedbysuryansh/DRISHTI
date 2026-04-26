@@ -1,0 +1,5 @@
+domain,video_stem,start_frame,end_frame,duration_frames,dominant_grasp,grasp_distribution,motion_speed_px,motion_label,hands_used,dominant_handedness,bimanual
+artificial_jewellery,video_20260404_114752,90,4620,4531,partial_grip,"{""partial_grip"": 123, ""pinch"": 25, ""closed_power"": 25, ""open_hand"": 12}",209.483,fast,2,Left,True
+artificial_jewellery,video_20260404_114752,4770,6750,1981,partial_grip,"{""partial_grip"": 47, ""open_hand"": 15, ""closed_power"": 15, ""pinch"": 10}",179.791,fast,2,Left,True
+artificial_jewellery,video_20260404_114752,6960,7020,61,open_hand,"{""open_hand"": 1, ""pinch"": 1, ""partial_grip"": 1}",481.367,fast,1,Left,False
+artificial_jewellery,video_20260404_114752,7530,12120,4591,partial_grip,"{""partial_grip"": 95, ""pinch"": 45, ""open_hand"": 31, ""closed_power"": 23}",230.636,fast,2,Left,True

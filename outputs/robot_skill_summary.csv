@@ -1,0 +1,8 @@
+domain,video_stem,segments,enriched_csv,graph_json,status
+artificial_jewellery,video_20260404_114752,4,../outputs/robot_skills/artificial_jewellery/video_20260404_114752_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260404_114752_graph.json,success
+artificial_jewellery,video_20260404_115542,2,../outputs/robot_skills/artificial_jewellery/video_20260404_115542_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260404_115542_graph.json,success
+artificial_jewellery,video_20260404_120254,1,../outputs/robot_skills/artificial_jewellery/video_20260404_120254_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260404_120254_graph.json,success
+artificial_jewellery,video_20260404_121005,2,../outputs/robot_skills/artificial_jewellery/video_20260404_121005_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260404_121005_graph.json,success
+artificial_jewellery,video_20260404_121903,20,../outputs/robot_skills/artificial_jewellery/video_20260404_121903_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260404_121903_graph.json,success
+artificial_jewellery,video_20260405_105612_edit,1,../outputs/robot_skills/artificial_jewellery/video_20260405_105612_edit_enriched.csv,../outputs/skill_graphs/artificial_jewellery/video_20260405_105612_edit_graph.json,success
+shop,video_20260405_163219_edit,1,../outputs/robot_skills/shop/video_20260405_163219_edit_enriched.csv,../outputs/skill_graphs/shop/video_20260405_163219_edit_graph.json,success

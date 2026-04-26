@@ -1,0 +1,11 @@
+domain,video_name,video_path,sample_rate,total_sampled_frames,clean_frames_saved,blur_threshold,status
+artificial_jewellery,video_20260404_114752.mp4,../data/artificial_jewellery/video_20260404_114752.mp4,30,405,377,100,success
+artificial_jewellery,video_20260404_120254.mp4,../data/artificial_jewellery/video_20260404_120254.mp4,30,312,79,100,success
+artificial_jewellery,video_20260404_121005.mp4,../data/artificial_jewellery/video_20260404_121005.mp4,30,129,25,100,success
+artificial_jewellery,video_20260404_115542.mp4,../data/artificial_jewellery/video_20260404_115542.mp4,30,405,224,100,success
+artificial_jewellery,video_20260404_122845.mp4,../data/artificial_jewellery/video_20260404_122845.mp4,30,356,16,100,success
+artificial_jewellery,video_20260405_105612_edit.mp4,../data/artificial_jewellery/video_20260405_105612_edit.mp4,30,11,8,100,success
+artificial_jewellery,video_20260404_121903.mp4,../data/artificial_jewellery/video_20260404_121903.mp4,30,457,427,100,success
+home_cleaning,video_20260404_073018.mp4,../data/home_cleaning/video_20260404_073018.mp4,30,407,1,100,success
+home_cleaning,video_20260404_074030.mp4,../data/home_cleaning/video_20260404_074030.mp4,30,258,3,100,success
+shop,video_20260405_163219_edit.mp4,../data/shop/video_20260405_163219_edit.mp4,30,222,22,100,success

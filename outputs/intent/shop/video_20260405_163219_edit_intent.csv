@@ -1,0 +1,2 @@
+domain,video_stem,start_frame,end_frame,duration_frames,intent,intent_confidence,intent_description,objects_used,grasp_used,motion_used,bimanual
+shop,video_20260405_163219_edit,720,5910,5191,shop_customer_service,0.5,"Interacting with customers, handing over items","['chair', 'person', 'small_object_proposal', 'suitcase', 'refrigerator']",partial_grip,fast,True

@@ -1,0 +1,21 @@
+domain,video_stem,start_frame,end_frame,duration_frames,intent,intent_confidence,intent_description,objects_used,grasp_used,motion_used,bimanual
+artificial_jewellery,video_20260404_121903,0,120,121,jewellery_assembling,0.3,"Assembling jewellery components (beads, chains, clasps)","['person', 'handbag', 'small_object_proposal', 'bed']",pinch,fast,True
+artificial_jewellery,video_20260404_121903,510,810,301,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'scissors', 'car', 'bird']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,1080,1140,61,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,1440,1680,241,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['scissors', 'small_object_proposal', 'knife', 'person', 'pizza']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,1890,2910,1021,jewellery_assembling,0.3,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'suitcase', 'skateboard', 'dining table']",pinch,fast,True
+artificial_jewellery,video_20260404_121903,3450,3510,61,jewellery_sorting,0.2,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal']",open_hand,fast,False
+artificial_jewellery,video_20260404_121903,3630,3720,91,jewellery_sorting,0.2,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal']",open_hand,fast,False
+artificial_jewellery,video_20260404_121903,4080,4380,301,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'clock', 'small_object_proposal', 'scissors', 'remote']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,4680,6150,1471,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'cell phone', 'pizza', 'baseball bat']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,6270,6330,61,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'clock']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,7260,7590,331,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'scissors', 'cup']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,7710,7890,181,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'knife']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,8070,8670,601,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'knife', 'scissors', 'toothbrush']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,8790,9930,1141,jewellery_assembling,0.3,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'cell phone', 'scissors', 'pizza']",pinch,fast,True
+artificial_jewellery,video_20260404_121903,10170,10980,811,jewellery_sorting,0.2,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal', 'scissors', 'pizza', 'chair']",open_hand,fast,False
+artificial_jewellery,video_20260404_121903,11100,11610,511,jewellery_sorting,0.2,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal', 'pizza', 'knife', 'skateboard']",open_hand,fast,False
+artificial_jewellery,video_20260404_121903,11820,12060,241,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'pizza', 'chair']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,12180,12360,181,jewellery_assembling,0.2,"Assembling jewellery components (beads, chains, clasps)","['person', 'small_object_proposal', 'scissors']",pinch,fast,False
+artificial_jewellery,video_20260404_121903,12600,12690,91,jewellery_sorting,0.4,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal']",pinch,moderate,False
+artificial_jewellery,video_20260404_121903,12870,12930,61,jewellery_sorting,0.4,Sorting and organizing jewellery pieces,"['person', 'small_object_proposal']",pinch,moderate,False

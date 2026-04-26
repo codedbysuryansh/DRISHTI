@@ -1,0 +1,8 @@
+hand_id,handedness,object_label,object_source,object_conf,x1,y1,x2,y2,fingertips_inside,min_tip_dist_px,domain,video_stem,frame_id
+0,Right,person,yolo,0.5575430989265442,464.3801879882813,387.5920715332031,1918.94970703125,1065.1953125,5,0.0,home_cleaning,video_20260404_074030,6570
+0,Right,person,yolo,0.3625270426273346,276.3515319824219,499.3530578613281,996.5006103515624,1066.0113525390625,5,0.0,home_cleaning,video_20260404_074030,6570
+0,Right,umbrella,yolo,0.2820484936237335,37.76806640625,4.975433349609375,1868.4239501953125,1026.2374267578125,5,0.0,home_cleaning,video_20260404_074030,6570
+0,Right,small_object_proposal,heuristic,1.0,1217.0,228.0,1258.0,322.0,1,0.0,home_cleaning,video_20260404_074030,7440
+0,Right,small_object_proposal,heuristic,1.0,1342.0,304.0,1378.0,406.0,0,4.0,home_cleaning,video_20260404_074030,7440
+0,Right,small_object_proposal,heuristic,1.0,1169.0,276.0,1220.0,342.0,0,7.0,home_cleaning,video_20260404_074030,7440
+0,Right,small_object_proposal,heuristic,1.0,1172.0,241.0,1204.0,314.0,1,0.0,home_cleaning,video_20260404_074030,7440

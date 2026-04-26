@@ -1,0 +1,8 @@
+domain,video_stem,segments,intent_csv,status
+artificial_jewellery,video_20260404_114752,4,../outputs/intent/artificial_jewellery/video_20260404_114752_intent.csv,success
+artificial_jewellery,video_20260404_115542,2,../outputs/intent/artificial_jewellery/video_20260404_115542_intent.csv,success
+artificial_jewellery,video_20260404_120254,1,../outputs/intent/artificial_jewellery/video_20260404_120254_intent.csv,success
+artificial_jewellery,video_20260404_121005,2,../outputs/intent/artificial_jewellery/video_20260404_121005_intent.csv,success
+artificial_jewellery,video_20260404_121903,20,../outputs/intent/artificial_jewellery/video_20260404_121903_intent.csv,success
+artificial_jewellery,video_20260405_105612_edit,1,../outputs/intent/artificial_jewellery/video_20260405_105612_edit_intent.csv,success
+shop,video_20260405_163219_edit,1,../outputs/intent/shop/video_20260405_163219_edit_intent.csv,success

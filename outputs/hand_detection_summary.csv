@@ -1,0 +1,11 @@
+domain,video_stem,frames_in_folder,landmark_rows,csv_path,annotated_examples_saved
+artificial_jewellery,video_20260404_114752,377,10122,../outputs/hand_landmarks/artificial_jewellery/video_20260404_114752_landmarks.csv,8
+artificial_jewellery,video_20260404_115542,224,7077,../outputs/hand_landmarks/artificial_jewellery/video_20260404_115542_landmarks.csv,8
+artificial_jewellery,video_20260404_120254,79,2688,../outputs/hand_landmarks/artificial_jewellery/video_20260404_120254_landmarks.csv,8
+artificial_jewellery,video_20260404_121005,25,525,../outputs/hand_landmarks/artificial_jewellery/video_20260404_121005_landmarks.csv,8
+artificial_jewellery,video_20260404_121903,427,7371,../outputs/hand_landmarks/artificial_jewellery/video_20260404_121903_landmarks.csv,8
+artificial_jewellery,video_20260404_122845,16,126,../outputs/hand_landmarks/artificial_jewellery/video_20260404_122845_landmarks.csv,6
+artificial_jewellery,video_20260405_105612_edit,8,294,../outputs/hand_landmarks/artificial_jewellery/video_20260405_105612_edit_landmarks.csv,8
+home_cleaning,video_20260404_073018,1,0,../outputs/hand_landmarks/home_cleaning/video_20260404_073018_landmarks.csv,0
+home_cleaning,video_20260404_074030,3,42,../outputs/hand_landmarks/home_cleaning/video_20260404_074030_landmarks.csv,2
+shop,video_20260405_163219_edit,22,546,../outputs/hand_landmarks/shop/video_20260405_163219_edit_landmarks.csv,8

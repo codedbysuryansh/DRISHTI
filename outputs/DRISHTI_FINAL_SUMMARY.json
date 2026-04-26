@@ -1,0 +1,16 @@
+{
+  "project": "DRISHTI",
+  "total_videos": 7,
+  "total_segments": 31,
+  "unique_robot_skills": 4,
+  "unique_intents": 3,
+  "domains": [
+    "shop",
+    "artificial_jewellery"
+  ],
+  "cross_domain_transferable_skills": [],
+  "graph_stats": {
+    "total_nodes": 38,
+    "total_edges": 31
+  }
+}

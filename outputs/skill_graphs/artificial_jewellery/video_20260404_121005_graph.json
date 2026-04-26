@@ -1,0 +1,65 @@
+{
+  "@context": "https://drishti.robotics/skill-graph/v1",
+  "@type": "RobotSkillGraph",
+  "nodes": [
+    {
+      "id": "artificial_jewellery::video_20260404_121005::root",
+      "node_type": "video_root",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_121005",
+      "total_segments": 2
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_121005::seg_0_1740",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_121005",
+      "start_frame": 0,
+      "end_frame": 1740,
+      "duration_frames": 1741,
+      "kinematic_grasp": "pinch",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.3,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "dexterous_fine_manipulation",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "high",
+      "dof_required": 6,
+      "safety_critical": false
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_121005::seg_2370_2580",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_121005",
+      "start_frame": 2370,
+      "end_frame": 2580,
+      "duration_frames": 211,
+      "kinematic_grasp": "pinch",
+      "kinematic_motion": "fast",
+      "bimanual": false,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.2,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "dexterous_fine_manipulation",
+      "robot_skill_confidence": 0.9,
+      "skill_complexity": "high",
+      "dof_required": 6,
+      "safety_critical": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "artificial_jewellery::video_20260404_121005::root",
+      "target": "artificial_jewellery::video_20260404_121005::seg_0_1740",
+      "edge_type": "temporal_next"
+    },
+    {
+      "source": "artificial_jewellery::video_20260404_121005::seg_0_1740",
+      "target": "artificial_jewellery::video_20260404_121005::seg_2370_2580",
+      "edge_type": "temporal_next"
+    }
+  ]
+}

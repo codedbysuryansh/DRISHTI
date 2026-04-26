@@ -1,0 +1,2 @@
+domain,video_stem,start_frame,end_frame,duration_frames,dominant_grasp,grasp_distribution,motion_speed_px,motion_label,hands_used,dominant_handedness,bimanual
+artificial_jewellery,video_20260404_120254,0,9330,9331,pinch,"{""pinch"": 76, ""partial_grip"": 33, ""open_hand"": 15, ""closed_power"": 4}",319.266,fast,2,Right,True

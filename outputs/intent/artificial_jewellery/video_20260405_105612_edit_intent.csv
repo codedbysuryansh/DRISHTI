@@ -1,0 +1,2 @@
+domain,video_stem,start_frame,end_frame,duration_frames,intent,intent_confidence,intent_description,objects_used,grasp_used,motion_used,bimanual
+artificial_jewellery,video_20260405_105612_edit,30,300,271,jewellery_assembling,0.3,"Assembling jewellery components (beads, chains, clasps)","['cake', 'person', 'small_object_proposal', 'couch', 'bed']",partial_grip,fast,True

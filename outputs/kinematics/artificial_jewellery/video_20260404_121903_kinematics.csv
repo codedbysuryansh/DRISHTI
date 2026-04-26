@@ -1,0 +1,21 @@
+domain,video_stem,start_frame,end_frame,duration_frames,dominant_grasp,grasp_distribution,motion_speed_px,motion_label,hands_used,dominant_handedness,bimanual
+artificial_jewellery,video_20260404_121903,0,120,121,pinch,"{""pinch"": 6}",27.059,fast,2,Left,True
+artificial_jewellery,video_20260404_121903,510,810,301,pinch,"{""pinch"": 7, ""open_hand"": 2}",205.44,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,1080,1140,61,pinch,"{""pinch"": 3}",33.074,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,1440,1680,241,pinch,"{""pinch"": 7, ""open_hand"": 2}",75.451,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,1890,2910,1021,pinch,"{""pinch"": 31, ""open_hand"": 13, ""partial_grip"": 5}",456.329,fast,2,Left,True
+artificial_jewellery,video_20260404_121903,3450,3510,61,open_hand,"{""open_hand"": 3}",43.121,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,3630,3720,91,open_hand,"{""open_hand"": 4}",102.788,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,4080,4380,301,pinch,"{""pinch"": 6, ""open_hand"": 4}",19.956,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,4680,6150,1471,pinch,"{""pinch"": 36, ""open_hand"": 9, ""partial_grip"": 4}",48.297,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,6270,6330,61,pinch,"{""pinch"": 3}",254.186,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,7260,7590,331,pinch,"{""pinch"": 10}",105.173,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,7710,7890,181,pinch,"{""pinch"": 6, ""partial_grip"": 1}",116.624,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,8070,8670,601,pinch,"{""pinch"": 15, ""open_hand"": 3}",122.823,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,8790,9930,1141,pinch,"{""pinch"": 30, ""open_hand"": 10, ""partial_grip"": 6, ""closed_power"": 1}",464.932,fast,2,Left,True
+artificial_jewellery,video_20260404_121903,10170,10980,811,open_hand,"{""open_hand"": 22, ""pinch"": 6}",71.054,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,11100,11610,511,open_hand,"{""open_hand"": 11, ""pinch"": 5}",140.482,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,11820,12060,241,pinch,"{""pinch"": 5, ""open_hand"": 2}",20.358,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,12180,12360,181,pinch,"{""pinch"": 7}",29.408,fast,1,Left,False
+artificial_jewellery,video_20260404_121903,12600,12690,91,pinch,"{""pinch"": 4}",11.612,moderate,1,Left,False
+artificial_jewellery,video_20260404_121903,12870,12930,61,pinch,"{""pinch"": 2, ""open_hand"": 1}",12.546,moderate,1,Left,False

@@ -1,0 +1,11 @@
+domain,video_stem,frames_total,contact_events,segments,contacts_csv,segments_csv,status
+artificial_jewellery,video_20260404_114752,377,1747,4,../outputs/contacts/artificial_jewellery/video_20260404_114752_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_114752_segments.csv,success
+artificial_jewellery,video_20260404_115542,224,741,2,../outputs/contacts/artificial_jewellery/video_20260404_115542_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_115542_segments.csv,success
+artificial_jewellery,video_20260404_120254,79,270,1,../outputs/contacts/artificial_jewellery/video_20260404_120254_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_120254_segments.csv,success
+artificial_jewellery,video_20260404_121005,25,78,2,../outputs/contacts/artificial_jewellery/video_20260404_121005_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_121005_segments.csv,success
+artificial_jewellery,video_20260404_121903,427,633,20,../outputs/contacts/artificial_jewellery/video_20260404_121903_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_121903_segments.csv,success
+artificial_jewellery,video_20260404_122845,16,11,0,../outputs/contacts/artificial_jewellery/video_20260404_122845_contacts.csv,../outputs/segments/artificial_jewellery/video_20260404_122845_segments.csv,success
+artificial_jewellery,video_20260405_105612_edit,8,57,1,../outputs/contacts/artificial_jewellery/video_20260405_105612_edit_contacts.csv,../outputs/segments/artificial_jewellery/video_20260405_105612_edit_segments.csv,success
+home_cleaning,video_20260404_073018,0,0,0,,,skipped_empty_csv
+home_cleaning,video_20260404_074030,3,7,0,../outputs/contacts/home_cleaning/video_20260404_074030_contacts.csv,../outputs/segments/home_cleaning/video_20260404_074030_segments.csv,success
+shop,video_20260405_163219_edit,22,53,1,../outputs/contacts/shop/video_20260405_163219_edit_contacts.csv,../outputs/segments/shop/video_20260405_163219_edit_segments.csv,success

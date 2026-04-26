@@ -1,0 +1,40 @@
+{
+  "@context": "https://drishti.robotics/skill-graph/v1",
+  "@type": "RobotSkillGraph",
+  "nodes": [
+    {
+      "id": "shop::video_20260405_163219_edit::root",
+      "node_type": "video_root",
+      "domain": "shop",
+      "video": "video_20260405_163219_edit",
+      "total_segments": 1
+    },
+    {
+      "id": "shop::video_20260405_163219_edit::seg_720_5910",
+      "node_type": "segment",
+      "domain": "shop",
+      "video": "video_20260405_163219_edit",
+      "start_frame": 720,
+      "end_frame": 5910,
+      "duration_frames": 5191,
+      "kinematic_grasp": "partial_grip",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "shop_customer_service",
+      "intent_confidence": 0.5,
+      "intent_description": "Interacting with customers, handing over items",
+      "robot_skill": "handover_interaction",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "shop::video_20260405_163219_edit::root",
+      "target": "shop::video_20260405_163219_edit::seg_720_5910",
+      "edge_type": "temporal_next"
+    }
+  ]
+}

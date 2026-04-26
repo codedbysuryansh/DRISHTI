@@ -1,0 +1,10 @@
+domain,video_stem,segments,kinematics_csv,status
+artificial_jewellery,video_20260404_114752,4,../outputs/kinematics/artificial_jewellery/video_20260404_114752_kinematics.csv,success
+artificial_jewellery,video_20260404_115542,2,../outputs/kinematics/artificial_jewellery/video_20260404_115542_kinematics.csv,success
+artificial_jewellery,video_20260404_120254,1,../outputs/kinematics/artificial_jewellery/video_20260404_120254_kinematics.csv,success
+artificial_jewellery,video_20260404_121005,2,../outputs/kinematics/artificial_jewellery/video_20260404_121005_kinematics.csv,success
+artificial_jewellery,video_20260404_121903,20,../outputs/kinematics/artificial_jewellery/video_20260404_121903_kinematics.csv,success
+artificial_jewellery,video_20260404_122845,0,,skipped_empty
+artificial_jewellery,video_20260405_105612_edit,1,../outputs/kinematics/artificial_jewellery/video_20260405_105612_edit_kinematics.csv,success
+home_cleaning,video_20260404_074030,0,,skipped_empty
+shop,video_20260405_163219_edit,1,../outputs/kinematics/shop/video_20260405_163219_edit_kinematics.csv,success

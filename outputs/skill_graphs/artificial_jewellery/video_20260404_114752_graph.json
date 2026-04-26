@@ -1,0 +1,115 @@
+{
+  "@context": "https://drishti.robotics/skill-graph/v1",
+  "@type": "RobotSkillGraph",
+  "nodes": [
+    {
+      "id": "artificial_jewellery::video_20260404_114752::root",
+      "node_type": "video_root",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_114752",
+      "total_segments": 4
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_114752::seg_90_4620",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_114752",
+      "start_frame": 90,
+      "end_frame": 4620,
+      "duration_frames": 4531,
+      "kinematic_grasp": "partial_grip",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.3,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "precision_placement",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": false
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_114752::seg_4770_6750",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_114752",
+      "start_frame": 4770,
+      "end_frame": 6750,
+      "duration_frames": 1981,
+      "kinematic_grasp": "partial_grip",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.3,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "precision_placement",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": false
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_114752::seg_6960_7020",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_114752",
+      "start_frame": 6960,
+      "end_frame": 7020,
+      "duration_frames": 61,
+      "kinematic_grasp": "open_hand",
+      "kinematic_motion": "fast",
+      "bimanual": false,
+      "intent": "jewellery_sorting",
+      "intent_confidence": 0.2,
+      "intent_description": "Sorting and organizing jewellery pieces",
+      "robot_skill": "precision_sorting",
+      "robot_skill_confidence": 0.9,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": false
+    },
+    {
+      "id": "artificial_jewellery::video_20260404_114752::seg_7530_12120",
+      "node_type": "segment",
+      "domain": "artificial_jewellery",
+      "video": "video_20260404_114752",
+      "start_frame": 7530,
+      "end_frame": 12120,
+      "duration_frames": 4591,
+      "kinematic_grasp": "partial_grip",
+      "kinematic_motion": "fast",
+      "bimanual": true,
+      "intent": "jewellery_assembling",
+      "intent_confidence": 0.3,
+      "intent_description": "Assembling jewellery components (beads, chains, clasps)",
+      "robot_skill": "precision_placement",
+      "robot_skill_confidence": 0.8,
+      "skill_complexity": "medium",
+      "dof_required": 5,
+      "safety_critical": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "artificial_jewellery::video_20260404_114752::root",
+      "target": "artificial_jewellery::video_20260404_114752::seg_90_4620",
+      "edge_type": "temporal_next"
+    },
+    {
+      "source": "artificial_jewellery::video_20260404_114752::seg_90_4620",
+      "target": "artificial_jewellery::video_20260404_114752::seg_4770_6750",
+      "edge_type": "temporal_next"
+    },
+    {
+      "source": "artificial_jewellery::video_20260404_114752::seg_4770_6750",
+      "target": "artificial_jewellery::video_20260404_114752::seg_6960_7020",
+      "edge_type": "temporal_next"
+    },
+    {
+      "source": "artificial_jewellery::video_20260404_114752::seg_6960_7020",
+      "target": "artificial_jewellery::video_20260404_114752::seg_7530_12120",
+      "edge_type": "temporal_next"
+    }
+  ]
+}
