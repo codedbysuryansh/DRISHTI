@@ -307,7 +307,7 @@ st.markdown("""
 # =============================================================================
 # CONSTANTS
 # =============================================================================
-PROJECT_ROOT = Path(__file__).parent.parent if Path(__file__).parent.parent.exists() else Path.cwd()
+PROJECT_ROOT = Path(__file__).parent.resolve()
 OUTPUT_DIR = PROJECT_ROOT / "outputs"
 
 # =============================================================================
