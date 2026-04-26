@@ -13,6 +13,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 
+# TEMP DEBUG
+st.cache_data.clear()
+
 # =============================================================================
 # PAGE CONFIG
 # =============================================================================
