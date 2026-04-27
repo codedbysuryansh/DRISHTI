@@ -304,6 +304,11 @@ st.markdown("""
         background: #005885;
         transform: translateY(-2px);
     }
+
+    div[role="alert"] p {
+    color: #00B3D1 !important;
+    }
+    
 </style>
 """, unsafe_allow_html=True)
 
@@ -626,7 +631,11 @@ elif page == "🤲 3-Layer Intelligence":
         ].reset_index(drop=True)
         
         if not video_segs.empty:
-            seg_idx = st.slider("Select Segment", 0, len(video_segs) - 1, 0)
+            if len(video_segs) == 1:
+                st.info("Only one segment is available for this video.")
+                seg_idx = 0
+            else:
+                seg_idx = st.slider("Select Segment", 0, len(video_segs) - 1, 0)
             seg = video_segs.iloc[seg_idx]
             
             st.markdown("---")
