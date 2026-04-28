@@ -3,3 +3,4 @@ pandas==2.1.4
 plotly==5.18.0
 networkx==3.2.1
 Pillow==10.2.0
+streamlit-analytics2
