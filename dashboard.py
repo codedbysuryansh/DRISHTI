@@ -4,7 +4,6 @@ A Hierarchical Skill Graph Pipeline with 3-Layer Robotic Intelligence Core
 """
 
 import streamlit as st
-import streamlit_analytics2 as streamlit_analytics
 import pandas as pd
 import json
 import networkx as nx
