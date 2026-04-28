@@ -14,20 +14,6 @@ from plotly.subplots import make_subplots
 import os
 
 # =============================================================================
-# Google Analytics Tracking
-# =============================================================================
-
-st.components.v1.html("""
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPLGW3VESQ"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-FPLGW3VESQ');
-</script>
-""", height=0)
-
-# =============================================================================
 # Development cache reset
 # =============================================================================
 st.cache_data.clear()
@@ -41,6 +27,19 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# =============================================================================
+# Google Analytics Tracking
+# =============================================================================
+st.components.v1.html("""
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPLGW3VESQ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FPLGW3VESQ');
+</script>
+""", height=0)
 
 # =============================================================================
 # PREMIUM DARK THEME CSS
