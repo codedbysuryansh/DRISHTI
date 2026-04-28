@@ -13,7 +13,23 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import os
 
-# TEMP DEBUG
+# =============================================================================
+# Google Analytics Tracking
+# =============================================================================
+
+st.components.v1.html("""
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPLGW3VESQ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FPLGW3VESQ');
+</script>
+""", height=0)
+
+# =============================================================================
+# Development cache reset
+# =============================================================================
 st.cache_data.clear()
 
 # =============================================================================
