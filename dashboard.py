@@ -14,11 +14,6 @@ from plotly.subplots import make_subplots
 import os
 
 # =============================================================================
-# Development cache reset
-# =============================================================================
-st.cache_data.clear()
-
-# =============================================================================
 # PAGE CONFIG
 # =============================================================================
 st.set_page_config(
@@ -29,9 +24,10 @@ st.set_page_config(
 )
 
 # =============================================================================
-# Google Analytics Tracking
+# Google Analytics
 # =============================================================================
-st.components.v1.html("""
+st.markdown("""
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FPLGW3VESQ"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -39,7 +35,12 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-FPLGW3VESQ');
 </script>
-""", height=0)
+""", unsafe_allow_html=True)
+
+# =============================================================================
+# Development cache reset
+# =============================================================================
+st.cache_data.clear()
 
 # =============================================================================
 # PREMIUM DARK THEME CSS
