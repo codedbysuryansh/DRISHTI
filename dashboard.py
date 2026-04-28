@@ -291,7 +291,7 @@ st.markdown("""
     .linkedin-btn {
         display: inline-block;
         background: #0077B5;
-        color: white;
+        color: #5FD6FF !important;
         padding: 8px 20px;
         border-radius: 6px;
         text-decoration: none;
@@ -307,6 +307,18 @@ st.markdown("""
 
     div[role="alert"] p {
     color: #00B3D1 !important;
+    }
+
+    [data-testid="stTextArea"] label {
+    color: #FFFFFF !important;
+    }
+            
+    [data-testid="stTextInput"] label {
+    color: #FFFFFF !important;
+    }
+    
+    [data-testid="stSelectbox"] label {
+    color: #FFFFFF !important;
     }
     
 </style>
