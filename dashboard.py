@@ -548,7 +548,8 @@ elif page == "📊 Pipeline Statistics":
             height=400,
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
-            font=dict(color='#E8E9ED')
+            font=dict(color='#E8E9ED'),
+            legend=dict(font=dict(color="white", size=14),bgcolor="rgba(0,0,0,0)")
         )
         st.plotly_chart(fig, use_container_width=True)
         
@@ -735,6 +736,7 @@ elif page == "🔗 Skill Graph Explorer":
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(color='#E8E9ED'),
+            legend=dict(font=dict(color="white", size=14),bgcolor="rgba(0,0,0,0)")
         )
         st.plotly_chart(fig, use_container_width=True)
         
@@ -916,7 +918,8 @@ Step 9: Place the finished necklace in the packaging box."""
             fig.update_layout(
                 plot_bgcolor='rgba(0,0,0,0)',
                 paper_bgcolor='rgba(0,0,0,0)',
-                font=dict(color='#E8E9ED')
+                font=dict(color='#E8E9ED'),
+                legend=dict(font=dict(color="white", size=14),bgcolor="rgba(0,0,0,0)")
             )
             st.plotly_chart(fig, use_container_width=True)
         
